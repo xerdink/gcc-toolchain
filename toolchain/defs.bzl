@@ -328,9 +328,9 @@ _SYSROOTS = {
 _TOOLCHAINS = {
     "11.3.0": {
         "aarch64": struct(
-            sha256 = "55b90e0e844ac02a7fc3352be42b7cb9bb3ec582c23649dbb77e05c60eb84434",
-            strip_prefix = "aarch64--glibc--bleeding-edge-2021.11-1",
-            url = "https://toolchains.bootlin.com/downloads/releases/toolchains/aarch64/tarballs/aarch64--glibc--bleeding-edge-2021.11-1.tar.bz2",
+            sha256 = "844df3c99508030ee9cb1152cb182500bb9816ff01968f2e18591d51d766c9e7",
+            strip_prefix = "aarch64--glibc--stable-2022.08-1",
+            url = "https://toolchains.bootlin.com/downloads/releases/toolchains/aarch64/tarballs/aarch64--glibc--stable-2022.08-1.tar.bz2",
         ),
         "armv7": struct(
             sha256 = "6d10f356811429f1bddc23a174932c35127ab6c6f3b738b768f0c29c3bf92f10",
@@ -338,9 +338,9 @@ _TOOLCHAINS = {
             url = "https://toolchains.bootlin.com/downloads/releases/toolchains/armv7-eabihf/tarballs/armv7-eabihf--glibc--stable-2021.11-1.tar.bz2",
         ),
         "x86_64": struct(
-            sha256 = "024fd8edc91b9bfd643f8cf94e3f3ff2a6457aea654d10ef3516db8c3d94d5f5",
-            strip_prefix = "x86-64--glibc--bleeding-edge-2021.11-5",
-            url = "https://toolchains.bootlin.com/downloads/releases/toolchains/x86-64/tarballs/x86-64--glibc--bleeding-edge-2021.11-5.tar.bz2",
+            sha256 = "861c1e8ad0a66e4c28e7a1f8319d68080ab0ff8d16a765e65540f1957203a190",
+            strip_prefix = "x86-64--glibc--stable-2022.08-1",
+            url = "https://toolchains.bootlin.com/downloads/releases/toolchains/x86-64/tarballs/x86-64--glibc--stable-2022.08-1.tar.bz2",
         ),
     },
 }

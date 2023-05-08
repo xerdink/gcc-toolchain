@@ -225,7 +225,7 @@ def _render_tool_paths(rctx, repository_name, toolchain_files_repository_name, b
         tool_paths[name] = wrapped_tool_path
     return tool_paths
 
-_DEFAULT_GCC_VERSION = "10.3.0"
+_DEFAULT_GCC_VERSION = "11.3.0"
 
 def gcc_register_toolchain(
     name,
@@ -326,11 +326,11 @@ _SYSROOTS = {
 }
 
 _TOOLCHAINS = {
-    "10.3.0": {
+    "11.3.0": {
         "aarch64": struct(
-            sha256 = "dec070196608124fa14c3f192364c5b5b057d7f34651ad58ebb8fc87959c97f7",
-            strip_prefix = "aarch64--glibc--stable-2021.11-1",
-            url = "https://toolchains.bootlin.com/downloads/releases/toolchains/aarch64/tarballs/aarch64--glibc--stable-2021.11-1.tar.bz2",
+            sha256 = "55b90e0e844ac02a7fc3352be42b7cb9bb3ec582c23649dbb77e05c60eb84434",
+            strip_prefix = "aarch64--glibc--bleeding-edge-2021.11-1",
+            url = "https://toolchains.bootlin.com/downloads/releases/toolchains/aarch64/tarballs/aarch64--glibc--bleeding-edge-2021.11-1.tar.bz2",
         ),
         "armv7": struct(
             sha256 = "6d10f356811429f1bddc23a174932c35127ab6c6f3b738b768f0c29c3bf92f10",
@@ -338,9 +338,9 @@ _TOOLCHAINS = {
             url = "https://toolchains.bootlin.com/downloads/releases/toolchains/armv7-eabihf/tarballs/armv7-eabihf--glibc--stable-2021.11-1.tar.bz2",
         ),
         "x86_64": struct(
-            sha256 = "6fe812add925493ea0841365f1fb7ca17fd9224bab61a731063f7f12f3a621b0",
-            strip_prefix = "x86-64--glibc--stable-2021.11-5",
-            url = "https://toolchains.bootlin.com/downloads/releases/toolchains/x86-64/tarballs/x86-64--glibc--stable-2021.11-5.tar.bz2",
+            sha256 = "024fd8edc91b9bfd643f8cf94e3f3ff2a6457aea654d10ef3516db8c3d94d5f5",
+            strip_prefix = "x86-64--glibc--bleeding-edge-2021.11-5",
+            url = "https://toolchains.bootlin.com/downloads/releases/toolchains/x86-64/tarballs/x86-64--glibc--bleeding-edge-2021.11-5.tar.bz2",
         ),
     },
 }
